@@ -1,0 +1,41 @@
+.display {
+  margin: 10px;
+  padding: 10px;
+}
+
+.display p:nth-child(1) {
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.display p:nth-child(2) {
+  font-size: 16px;
+  font-style: italic;
+  color: brown;
+}
+
+.display p:nth-child(3) {
+  text-transform: capitalize;
+  color: green;
+  font-weight: 400;
+  text-decoration: solid;
+  text-decoration: underline;
+}
+
+.display p:nth-child(4) {
+  font-style: italic;
+  color: grey;
+}
+
+.display p:nth-child(5) {
+  text-transform: capitalize;
+  color: green;
+  font-weight: 400;
+  text-decoration: solid;
+  text-decoration: underline;
+}
+
+.display p:nth-child(6) {
+  font-style: italic;
+  color: grey;
+}
