@@ -8,7 +8,7 @@ A simple React application that allows users to search for word definitions usin
 - [Installation](#installation)
 - [Usage](#usage)
 - [API Key](#api-key)
-- [Screenshot](#Screenshot)
+- [Screenshots](#Screenshots)
 
 ## Features
 
