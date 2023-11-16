@@ -23,7 +23,7 @@ A simple React application that allows users to search for word definitions usin
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/dictionary-search-app.git
+   git clone https://github.com/Dwidenbrahma/react-dictionary
    ```
 
 ## Screenshots

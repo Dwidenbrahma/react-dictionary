@@ -24,7 +24,7 @@
 
 .display p:nth-child(4) {
   font-style: italic;
-  color: grey;
+  color: rgb(72, 68, 68);
 }
 
 .display p:nth-child(5) {
@@ -37,5 +37,5 @@
 
 .display p:nth-child(6) {
   font-style: italic;
-  color: grey;
+  color: rgb(72, 68, 68);
 }

@@ -18,3 +18,11 @@
   font-size: 20px;
   padding: 10px;
 }
+
+/* Styles for devices with a maximum width of 767 pixels (typical for phones) */
+@media only screen and (max-width: 485px) {
+  /* Your styles for phones go here */
+  .App {
+    width: 250px;
+  }
+}
