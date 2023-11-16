@@ -8,6 +8,7 @@ function Form() {
   const [data, setData] = useState([]); //for setting value of api data
   const [inputValue, setInputValue] = useState("");
   const [loading, setLoading] = useState(false);
+  const [isNull, setValue] = useState("");
 
   const handleChange = (event) => {
     setInputValue(event.target.value);
@@ -30,6 +31,7 @@ function Form() {
       console.error("Error fetching data:", error);
     } finally {
       setLoading(false);
+      setValue("Opps ! Try different word 🤪");
     }
   };
 
@@ -80,7 +82,7 @@ function Form() {
                 }
               />
             ) : (
-              "No Data Found. Try searching for a different word or Search a word"
+              isNull
             )}
           </div>
         </div>
