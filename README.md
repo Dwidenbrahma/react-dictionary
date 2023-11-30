@@ -27,4 +27,4 @@ A simple React application that allows users to search for word definitions usin
 
 ## Screenshots
 
-![Screenshot 1](i.png)
+![Screenshot 1](screenshot.png)
